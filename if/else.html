@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h2>How cool is Chris</h2>
+    <div id="stuff"></div>
     <script>
+      //         var x = 5;
+      // var y = 7;
 
-        
-    </script>
+      // if(x > y) {
+      //     console.log(x + " sayisi" + y + " sayısından büyüktür." );
+      // }
+
+      // else {
+      //     console.log(y + " sayisi" + " " + x + " sayısından büyüktür.");
+      // }
+    //   let vize=+prompt("lütfen bir sayi giriniz")
+    //   let final =+prompt("final notunu giriniz")
+    //   let ort=final*0.6+vize*0.4;
+    //   if(ort>=50 && final>=60){
+    //       console.log(`${ort} puanı ile bölümü başarılı bir şekilde geçmiştir`);    }
+    //   else
+    //       {console.log("sınıfta kaldınız");}
+    // let i=(Math.floor(Math.random()*10)+1);
+    // console.log(i);
+    // let girilenSayi=+prompt("0-10 arasında bir sayi giriniz")
     
-</body>
+    // if(girilenSayi==i){
+    //     console.log("sayiyi buldunuz")
+    // }
+    // else {
+    //     console.log("tekrar bir sayi giriniz");
+    //     +prompt("tekrar bir sayi giriniz")
+    // }
+    let i=document.getElementById("stuff")
+    let input=prompt("bir şeyler yaziniz")
+    const y=(input.length>0)?`${input}`:"lütfen geçerli bir şeyler yaziniz";
+    i.innerText=`level ${y}`
+
+  
+    </script>
+  </body>
 </html>
